@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--Custom-->
+  <string name="app_name">Linphone</string>
+  <string name="service_name">Linphone 服务</string>
+  <string name="addressbook_label">Linphone</string>
+  <string name="notification_title">Linphone</string>
+  <string name="wait_dialog_text">启动中</string>
+  <string name="notification_registered">%s 已注册</string>
+  <string name="notification_register_failure">%s 无法注册</string>
+  <string name="tunnel_host"></string>
+  <string name="about_version">Linphone Android %s</string>
+  <string name="about_text">GNU General Public License V2\n © 2010-2016 Belledonne Communications</string>
+  <string name="about_link">www.linphone.org</string>
+  <string name="sync_account_name">Linphone 联系人</string>
+  <!--Common-->
+  <string name="username">使用者名称</string>
+  <string name="phone_number">电话号码</string>
+  <string name="display_name">显示名称</string>
+  <string name="password">密码</string>
+  <string name="confirm_password">密码确认</string>
+  <string name="domain">网域</string>
+  <string name="remote_provisioning_url">网址</string>
+  <string name="email">电子邮件</string>
+  <string name="delete_text">你确定要刪除选择的项目吗？</string>
+  <string name="delete">刪除</string>
+  <string name="retry">重试</string>
+  <string name="cancel">取消</string>
+  <string name="accept">接受</string>
+  <string name="continue_text">继续</string>
+  <string name="about">关于</string>
+  <string name="deny">拒绝</string>
+  <string name="search">搜索</string>
+  <string name="outgoing">拨出</string>
+  <string name="incoming">来电</string>
+  <string name="missed">未接来电</string>
+  <string name="settings">设置</string>
+  <string name="connect">连接</string>
+  <string name="decline">拒绝</string>
+  <string name="conference">会议</string>
+  <string name="no">否</string>
+  <string name="ok">确定</string>
+  <string name="yes">是</string>
+  <!--Launch screen-->
+  <string name="app_description"><i>自由的</i> SIP 客戶端</string>
+  <!--Assistant-->
+  <string name="welcome">欢迎</string>
+  <string name="assistant">助理</string>
+  <string name="assistant_create_account">建立帐号</string>
+  <string name="assistant_continue">继续</string>
+  <string name="assistant_finish">完成设置</string>
+  <string name="transport">传输</string>
+  <string name="assistant_login_linphone">使用 Linphone 帐号</string>
+  <string name="assistant_login_generic">使用 SIP 帐号</string>
+  <string name="assistant_display_name_optional">显示名称(可选)</string>
+  <string name="assistant_generic_account">使用 SIP 帐号</string>
+  <string name="assistant_login">登入</string>
+  <string name="assistant_ec_calibration">正在进行回音消除器校正</string>
+  <string name="assistant_remote_provisioning_login">輸入你的使用者名称和密码</string>
+  <string name="assistant_account_not_validated">你的帐号还沒被验证。</string>
+  <string name="assistant_account_validated">你的帐号已经被验证。</string>
+  <string name="assistant_error_bad_credentials">不正确的使用者名称或密码</string>
+  <string name="wizard_failed">发生错误，请稍候再试。</string>
+  <string name="wizard_server_unavailable">无法连接到服务器，请确认你的网络连接。</string>
+  <string name="wizard_username_unavailable">这个使用者名称已经被使用。</string>
+  <string name="wizard_username_incorrect">你的使用者名称无效。</string>
+  <string name="wizard_email_incorrect">你的电子邮件无效。</string>
+  <string name="wizard_password_incorrect">你的密码无效。</string>
+  <string name="wizard_passwords_unmatched">密码不相符</string>
+  <string name="setup_confirm_username">你的使用者名称将会是 %s。\r\n\r\n它可能与你输入的不同来符合需求。\r\n你接受吗？</string>
+  <string name="first_launch_no_login_password">请输入你的使用者名称和密码</string>
+  <string name="forgot_password">忘记密码？</string>
+  <!--Status-->
+  <!--In-app-->
+  <!--Dailer-->
+  <string name="address_bar_hint">输入号码或地址</string>
+  <!--History-->
+  <string name="no_call_history">记录中没有通话</string>
+  <string name="no_missed_call_history">记录中没有未接来电</string>
+  <string name="delete_history_log">你想要刪除选择的通话记录吗？</string>
+  <string name="today">今天</string>
+  <string name="yesterday">昨天</string>
+  <!--Contacts-->
+  <string name="no_contact">通讯录中沒有联系人。</string>
+  <string name="no_sip_contact">通讯录中沒有 SIP 联系人。</string>
+  <string name="delete_contacts">你想要刪除选择的联系人吗？</string>
+  <string name="delete_contact">你想要刪除选择的联系人吗？</string>
+  <string name="sip_address">SIP 地址</string>
+  <string name="contact_first_name">名字</string>
+  <string name="contact_last_name">姓氏</string>
+  <!--Chat-->
+  <string name="no_chat_history">沒有对话</string>
+  <string name="delete_conversation">你想要刪除选择的对话吗？</string>
+  <string name="delete_message">你想要刪除选择的信息吗？</string>
+  <string name="remote_composing">对方正在输入...</string>
+  <string name="share_picture_size_small">小</string>
+  <string name="share_picture_size_medium">中</string>
+  <string name="share_picture_size_large">大</string>
+  <string name="share_picture_size_real">真实大小</string>
+  <string name="text_copied_to_clipboard">文字已复制到剪贴板</string>
+  <string name="copy_text">复制文字</string>
+  <string name="image_picker_title">选择来源</string>
+  <string name="image_saved">已储存图片</string>
+  <string name="image_not_saved">错误，沒有储存图片</string>
+  <string name="wait">请稍候...</string>
+  <!--Status Bar-->
+  <string name="status_connected">已注册</string>
+  <string name="status_not_connected">未注册</string>
+  <string name="status_in_progress">正在注册</string>
+  <string name="status_error">注册失败</string>
+  <string name="voicemail_unread">未读信息</string>
+  <!--Side Menu-->
+  <string name="menu_assistant">助理</string>
+  <string name="menu_settings">设置</string>
+  <string name="menu_about">关于</string>
+  <string name="quit">退出</string>
+  <!--Call-->
+  <string name="incoming_call">来电</string>
+  <string name="outgoing_call">拨出电话</string>
+  <string name="add_video_dialog">对方想要启用视频</string>
+  <string name="call_paused_by_remote">对方暂停了通话</string>
+  <string name="couldnt_accept_call">接电话时发生错误</string>
+  <string name="unknown_incoming_call_name">未知</string>
+  <string name="call_stats_audio">音频</string>
+  <string name="call_stats_video">视频</string>
+  <string name="call_stats_codec">编解码器：</string>
+  <string name="call_stats_upload">上传带宽：</string>
+  <string name="call_stats_download">下载带宽：</string>
+  <string name="call">通话</string>
+  <!--About-->
+  <string name="menu_send_log">发送日志</string>
+  <string name="menu_reset_log">设置日志</string>
+  <!--Service-->
+  <string name="notification_started">已启动</string>
+  <string name="unread_messages">%i 未读消息</string>
+  <!--Errors-->
+  <string name="skipable_error_service_not_ready">关闭</string>
+  <string name="error">错误</string>
+  <string name="error_unknown">未知错误</string>
+  <string name="error_user_not_found">找不到使用者</string>
+  <string name="error_incompatible_media">不兼容的媒体参数</string>
+  <string name="error_low_bandwidth">对方的带宽过低，视频无法启动</string>
+  <string name="error_network_unreachable">无法连接网络</string>
+  <string name="error_io_error">网络错误</string>
+  <string name="download_image_failed">下载失败。请检查你的网络连接或稍候再试。</string>
+  <!--Account Settings-->
+  <string name="pref_sipaccount">SIP 帐号</string>
+  <string name="pref_manage_title">管理</string>
+  <string name="pref_disable_account">已停用</string>
+  <string name="pref_domain">网域*</string>
+  <string name="pref_passwd">密码*</string>
+  <string name="pref_username">使用者名称*</string>
+  <string name="pref_escape_plus">以 00 取代 +</string>
+  <string name="pref_display_name">显示名称</string>
+  <string name="pref_help_display_name">输入显示名称(可选)</string>
+  <string name="pref_prefix">前缀</string>
+  <string name="pref_transport">传输</string>
+  <string name="pref_transport_udp">UDP</string>
+  <string name="pref_transport_tcp">TCP</string>
+  <string name="pref_transport_tls">TLS</string>
+  <string name="pref_delete_account">刪除这个帐号</string>
+  <string name="pref_default_account">设为默认值</string>
+  <!--Settings-->
+  <string name="pref_sipaccounts">SIP 帐号</string>
+  <string name="default_account_flag">默认帐号</string>
+  <string name="pref_add_account">加入帐号</string>
+  <string name="pref_tunnel">通道(Tunnel)</string>
+  <string name="pref_tunnel_host">主机名称</string>
+  <string name="pref_tunnel_port">连接埠</string>
+  <string name="pref_tunnel_mode">模式</string>
+  <!--do not change order without changing corresponding entry_values in non_localizable_strings.xml-->
+  <string-array name="tunnel_mode_entries">
+    <item>停用</item>
+    <item>只有3G</item>
+    <item>总是</item>
+    <item>自动</item>
+  </string-array>
+  <string name="pref_none">无</string>
+  <string name="pref_preferences_title">偏好设置</string>
+  <string name="pref_video_enable_title">启用视频</string>
+  <!--Audio settings-->
+  <string name="pref_audio_title">音频</string>
+  <string name="pref_echo_cancellation">回音消除</string>
+  <string name="pref_echo_cancellation_summary">移除另一端听到的回音</string>
+  <string name="pref_echo_canceller_calibration">回音消除器校正</string>
+  <string name="ec_calibrating">校正中...</string>
+  <string name="no_echo">沒有回音</string>
+  <string name="failed">失败</string>
+  <string name="pref_codec_bitrate_limit">编解码器位元率限制</string>
+  <string name="pref_codecs">编解码器</string>
+  <!--Video settings-->
+  <string name="pref_video_title">视频</string>
+  <string name="pref_video_use_front_camera_title">使用前摄像头</string>
+  <string name="pref_video_initiate_call_with_video_title">发起视频通话</string>
+  <string name="pref_video_initiate_call_with_video">总是传送视频要求</string>
+  <string name="pref_video_automatically_accept_video_title">接受来电视频要求</string>
+  <string name="pref_video_automatically_accept_video">总是接受视频要求</string>
+  <string name="pref_video_preset">视频设置</string>
+  <string name="pref_preferred_video_size">偏好的视频大小</string>
+  <string name="pref_preferred_fps">偏好的 FPS</string>
+  <string name="pref_video_codecs_title">编解码器</string>
+  <!--Call settings-->
+  <string name="pref_call_title">通话</string>
+  <string name="pref_device_ringtone">使用装置铃声</string>
+  <!--Chat settings-->
+  <string name="pref_chat_title">聊天</string>
+  <string name="pref_image_sharing_server_desc">不要编辑除非你知道你在做什么！</string>
+  <string name="lime_encryption_entry_disabled">停用</string>
+  <string name="lime_encryption_entry_mandatory">强制</string>
+  <!--Network settings-->
+  <string name="pref_network_title">网络</string>
+  <string name="pref_wifi_only">只使用 WiFi</string>
+  <string name="pref_ice_enable">启用 ICE</string>
+  <string name="pref_turn_enable">启用 TURN</string>
+  <string name="pref_upnp_enable">启用 UPNP</string>
+  <string name="pref_transport_use_random_ports">使用随机连接埠</string>
+  <string name="pref_sip_port_title">要使用的连接埠</string>
+  <string name="pref_video_port_title">视频连接埠或连接埠范围</string>
+  <string name="pref_audio_port_title">音频连接埠或连接埠范围</string>
+  <string name="pref_video_port_description">视频连接埠或连接埠范围(最小连接埠-最大连接埠)</string>
+  <string name="pref_audio_port_description">音频连接埠或连接埠范围(最小连接埠-最大连接埠)</string>
+  <string name="pref_media_encryption">媒体加密</string>
+  <string name="pref_push_notification">启用推送通知</string>
+  <string name="pref_ipv6_title">允许 IPv6</string>
+  <!--Advanced settings-->
+  <string name="pref_advanced_title">高级</string>
+  <string name="pref_debug">调试</string>
+  <string name="pref_background_mode">背景模式</string>
+  <string name="pref_animation_enable_title">启用动画</string>
+  <string name="pref_autostart">开机时启动</string>
+  <string name="pref_primary_account_title">主要帐号</string>
+  <string name="pref_display_name_title">显示名称</string>
+  <string name="pref_user_name_title">使用者名称</string>
+  <!--Audio hack settings-->
+  <!--Content description-->
+  <string name="content_description_back">返回</string>
+  <string name="content_description_dialer">拨号器</string>
+  <string name="content_description_menu">功能表</string>
+  <string name="content_description_decline">拒绝</string>
+  <string name="content_description_hang_up">挂断</string>
+  <string name="content_description_accept">接受</string>
+  <string name="content_description_edit">编辑</string>
+  <string name="content_description_edit_list">编辑清单</string>
+  <string name="content_description_valid">有效</string>
+  <string name="content_description_add_contact">加入到联系人</string>
+  <string name="content_description_new_contact">新增联系人</string>
+  <string name="content_description_call">通话</string>
+  <string name="content_description_backspace">Backspace</string>
+  <string name="content_description_chat">聊天</string>
+  <string name="content_description_dial_back">回拨</string>
+  <string name="content_description_dialer_back">回到拨号器</string>
+  <string name="content_description_contact_picture">联系人图片</string>
+  <string name="content_description_send_message">发送消息</string>
+  <string name="content_description_detail">详细资料</string>
+  <string name="content_description_delete">刪除</string>
+  <string name="content_description_search">搜索</string>
+  <string name="content_description_search_contact">搜索联系人</string>
+  <string name="content_description_all_contacts">所有联系人</string>
+  <string name="content_description_linphone_contacts">Linphone 联系人</string>
+  <string name="content_description_call_direction">通话方向</string>
+  <string name="content_description_all_calls">所有通话</string>
+  <string name="content_description_missed_calls">未接来电</string>
+  <string name="content_description_switch_video">切换视频</string>
+  <string name="content_description_pause">暫停</string>
+  <string name="content_description_numpad">数字键盘</string>
+  <string name="content_description_history">记录按钮</string>
+  <string name="content_description_chat_button">聊天按钮</string>
+  <string name="content_description_contacts">联系人按钮</string>
+  <string name="content_description_call_quality">通话质量</string>
+  <string name="content_description_encryption">加密</string>
+  <string name="content_description_switch_camera">切换摄像头</string>
+  <string name="content_description_cancel_button">取消按钮</string>
+  <string name="content_description_message_status">消息状态</string>
+  <string name="content_description_conference">会议</string>
+  <string name="content_description_username_field">使用者名稱欄位</string>
+  <string name="content_description_activation_code_field">使用者名稱欄位</string>
+  <string name="content_description_display_field">显示名称栏位</string>
+  <string name="content_description_domain_field">网域栏位</string>
+  <string name="content_description_confirm_password_field">确认密码栏位</string>
+  <string name="content_description_email_field">电子邮件栏位</string>
+  <string name="content_description_default_account">设置帐号</string>
+  <string name="content_description_deselect_all">取消全选</string>
+  <string name="content_description_select_all">全选</string>
+  <string name="content_description_delete_selection">刪除选择项目</string>
+  <string name="content_description_contact_first_name">名字</string>
+  <string name="content_description_contact_last_name">姓氏</string>
+  <string name="content_description_back_call">回到通话</string>
+  <string name="content_description_send_file">发送文件</string>
+  <string name="content_description_message">消息</string>
+  <string name="content_description_unread_chat_message">未读聊天消息</string>
+  <string name="content_description_transfer">转接</string>
+  <string name="content_description_bluetooth">蓝牙</string>
+  <string name="content_description_call_options">通话选项</string>
+</resources>
